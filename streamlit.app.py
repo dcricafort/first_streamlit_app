@@ -49,8 +49,6 @@ try:
     streamlit.dataframe(back_from_function)
 except URLError as e:
   streamlit.error()
-# do not do anything beyond this line
-streamlit.stop()
 
 #import snowflake.connector
 #streamlit.text("Hello from Snowflake:")
